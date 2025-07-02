@@ -34,19 +34,26 @@ export default function Footer() {
           {/* Company Info Section */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
-              <div className="bg-yellow-500 p-2 rounded mr-3">
-                <div className="w-6 h-6 bg-white rounded-sm"></div>
+              <div className="bg-gray-100 p-2 rounded mr-3">
+                {/* <div className="w-6 h-6 bg-white rounded-sm"></div> */}
+                <img
+                  src="https://www.kgnengineeringconstruction.com/assets/images/favicons/favicon-32x32.png"
+                  alt=""
+                />
               </div>
               <div>
-                <h2 className="text-xl font-bold">WALLS</h2>
-                <p className="text-sm text-gray-300">CONSTRUCTION</p>
+                <h2 className="text-xl font-bold">KGN</h2>
+                <p className="text-sm text-gray-300">
+                  ENGINEERING CONSTRUCTION
+                </p>
               </div>
             </div>
 
             <p className="text-gray-300 text-sm leading-relaxed mb-6">
-              This theme is a micro niche for business categories, namely Walls
-              WP - Construction WordPress Theme. There was an excess of this
-              template is using WordPress and Nuno Page Builder.
+              KGN Engineering Construction is a leading service provider
+              specializing in comprehensive construction solutions and expert
+              refractory installation services. With a commitment to excellence
+              and precision.
             </p>
 
             {/* Social Media Links */}
@@ -133,7 +140,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-yellow-500 hover:text-yellow-400 transition-colors duration-300"
+                    className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
                     General Contracting
                   </a>
@@ -141,7 +148,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-yellow-500 hover:text-yellow-400 transition-colors duration-300"
+                    className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
                     Construction Consultant
                   </a>
@@ -149,7 +156,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-yellow-500 hover:text-yellow-400 transition-colors duration-300"
+                    className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
                     Power And Energy
                   </a>
@@ -157,7 +164,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-yellow-500 hover:text-yellow-400 transition-colors duration-300"
+                    className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
                     Special Projects
                   </a>
@@ -165,7 +172,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-yellow-500 hover:text-yellow-400 transition-colors duration-300"
+                    className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
                     House Renovation
                   </a>
@@ -173,7 +180,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-yellow-500 hover:text-yellow-400 transition-colors duration-300"
+                    className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
                     Tiling And Painting
                   </a>
@@ -242,13 +249,13 @@ export default function Footer() {
       </div>
 
       {/* Contact Tab (Fixed Position) */}
-      <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
+      {/* <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
         <button className="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-8 rounded-l-lg shadow-lg transition-all duration-300 hover:px-6 group">
           <div className="transform -rotate-90 whitespace-nowrap font-semibold tracking-wider">
             CONTACT
           </div>
         </button>
-      </div>
+      </div> */}
     </footer>
   );
 }

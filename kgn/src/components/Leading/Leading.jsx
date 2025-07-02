@@ -266,20 +266,20 @@ export default function Leading() {
             {/* Description */}
             <div className="space-y-4">
               <p className="text-lg lg:text-xl text-gray-800 font-medium leading-relaxed">
-                Walls WP is designed for industrial, oil and gas, manufacturing,
-                mechanical, power and energy, engineering & Multipurpose
-                Business.
+                KGN Engineering Construction is designed for industrial, oil and
+                gas, manufacturing, mechanical, power and energy, engineering &
+                Multipurpose Business.
               </p>
 
               <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 lg:p-6 border border-white/30 shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white/30">
                 <p className="text-gray-800 leading-relaxed">
-                  Walls WP is designed for industrial, oil and gas,
-                  manufacturing, mechanical, power and energy, engineering &
-                  Multipurpose Business. This template has beautiful and unique
-                  design that will be best suited for your online web presence.
-                  It has 100% responsive design and tested on all major handheld
-                  devices, the theme also responsive and high quality in any
-                  browsers.
+                  KGN Engineering Construction is designed for industrial, oil
+                  and gas, manufacturing, mechanical, power and energy,
+                  engineering & Multipurpose Business. This template has
+                  beautiful and unique design that will be best suited for your
+                  online web presence. It has 100% responsive design and tested
+                  on all major handheld devices, the theme also responsive and
+                  high quality in any browsers.
                 </p>
               </div>
             </div>

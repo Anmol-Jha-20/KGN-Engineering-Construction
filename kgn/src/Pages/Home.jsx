@@ -17,6 +17,10 @@ import Header from "../components/Header/Header.jsx";
 import Leading from "../components/Leading/Leading.jsx";
 import Projects from "../components/Projects/Projects.jsx";
 import Footer from "../components/Footer/Footer.jsx";
+import About from "../components/About/About.jsx";
+import MissionVisionValues from "../components/Mission/MissionValue.jsx";
+import ConstructionHeroSection from "../components/ConstructionHero/ConstructionHero.jsx";
+import ContactTestimonialsUI from "../components/Testimonials/Testimonials.jsx";
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -317,7 +321,11 @@ export default function Home() {
       </section>
       <Leading />
       <Projects />
-      {/* <Footer /> */}
+      <About />
+      <MissionVisionValues />
+      <ConstructionHeroSection />
+      <ContactTestimonialsUI />
+      <Footer />
     </div>
   );
 }

@@ -545,9 +545,7 @@ export default function Header() {
               role="navigation"
               aria-label="Main navigation"
             >
-              <NavItem hasDropdown dropdownItems={dropdownData.HOME}>
-                HOME
-              </NavItem>
+              <NavItem>HOME</NavItem>
               <NavItem hasDropdown dropdownItems={dropdownData["ABOUT US"]}>
                 ABOUT US
               </NavItem>
