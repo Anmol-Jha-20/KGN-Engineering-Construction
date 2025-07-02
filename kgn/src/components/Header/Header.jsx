@@ -606,7 +606,7 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden absolute top-full left-0 w-full bg-yellow-400 shadow-lg z-50 border-t border-yellow-500">
+          <div className="lg:hidden absolute top-full left-0 w-full bg-gray-100 shadow-lg z-50 border-t border-yellow-500">
             <nav
               className="py-4"
               role="navigation"
@@ -637,7 +637,7 @@ export default function Header() {
                 >
                   PROJECTS
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="text-blue-900 font-medium py-3 hover:text-blue-700 transition-colors border-b border-yellow-500/30 uppercase text-sm tracking-wide"
                 >
@@ -654,7 +654,7 @@ export default function Header() {
                   className="text-blue-900 font-medium py-3 hover:text-blue-700 transition-colors border-b border-yellow-500/30 uppercase text-sm tracking-wide"
                 >
                   SHOP
-                </a>
+                </a> */}
                 <a
                   href="#"
                   className="text-blue-900 font-medium py-3 hover:text-blue-700 transition-colors uppercase text-sm tracking-wide"
