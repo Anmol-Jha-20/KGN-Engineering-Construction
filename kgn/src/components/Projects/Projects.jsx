@@ -105,7 +105,7 @@ const Projects = () => {
         >
           <div className="flex flex-col items-center space-y-2">
             <Phone className="w-5 h-5 group-hover:scale-110 transition-transform" />
-            <span className="text-xs font-bold writing-mode-vertical-rl transform rotate-180">
+            <span className="hidden md:block text-xs font-bold writing-mode-vertical-rl transform rotate-180">
               CONTACT
             </span>
           </div>

@@ -536,7 +536,7 @@ export default function Header() {
               className="h-auto w-full object-contain"
             />
           </div>
-          <div className="flex bg-white rounded-sm ml-20 items-center justify-between px-5">
+          <div className="flex bg-white rounded-sm ml-52 items-center justify-between px-5">
             {/* Logo */}
 
             {/* Desktop Navigation */}
@@ -552,7 +552,7 @@ export default function Header() {
               <NavItem hasDropdown dropdownItems={dropdownData.SERVICES}>
                 SERVICES
               </NavItem>
-              <NavItem hasDropdown dropdownItems={dropdownData.PROJECTS}>
+              {/* <NavItem hasDropdown dropdownItems={dropdownData.PROJECTS}>
                 PROJECTS
               </NavItem>
               <NavItem hasDropdown dropdownItems={dropdownData.BLOG}>
@@ -563,7 +563,9 @@ export default function Header() {
               </NavItem>
               <NavItem hasDropdown dropdownItems={dropdownData.SHOP}>
                 SHOP
-              </NavItem>
+              </NavItem> */}
+              <NavItem>Gallery</NavItem>
+              <NavItem>Brochure</NavItem>
               <NavItem>CONTACT</NavItem>
             </nav>
 
@@ -571,7 +573,7 @@ export default function Header() {
             <div className="flex items-center space-x-4">
               {/* Search Icon */}
               <button
-                className="hidden lg:block text-black hover:text-white transition-colors p-2"
+                className="hidden lg:block text-black hover:text-yellow-400 transition-colors p-2"
                 aria-label="Search"
               >
                 <Search className="w-5 h-5" />

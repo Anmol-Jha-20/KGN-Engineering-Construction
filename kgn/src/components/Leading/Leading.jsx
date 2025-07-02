@@ -309,9 +309,9 @@ export default function Leading() {
                 <div className="bg-white rounded-xl shadow-2xl p-4 hover:shadow-3xl transition-shadow duration-300">
                   <div className="aspect-[4/3] bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg overflow-hidden">
                     <img
-                      src="https://walls-wp.themegum.com/wp-content/uploads/2017/06/about-img-1.jpg"
+                      src="https://www.kgnengineeringconstruction.com/media/about/about-3-1.jpg"
                       alt=""
-                      className="object-cover"
+                      className="object-cover w-full"
                     />
                     {/* <div className="w-full h-full bg-gradient-to-br from-yellow-200 via-orange-200 to-red-200 flex items-center justify-center">
                       <div className="text-center space-y-2">
@@ -344,7 +344,7 @@ export default function Leading() {
                 <div className="bg-white rounded-xl shadow-2xl p-3 hover:shadow-3xl transition-shadow duration-300">
                   <div className="aspect-[4/3] w-48 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg overflow-hidden">
                     <img
-                      src="https://walls-wp.themegum.com/wp-content/uploads/2017/07/slide-2-1-300x200.jpg"
+                      src="https://www.kgnengineeringconstruction.com/media/about/about-s-3-1.png"
                       alt=""
                       className="object-cover"
                     />

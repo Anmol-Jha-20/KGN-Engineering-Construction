@@ -21,6 +21,7 @@ import About from "../components/About/About.jsx";
 import MissionVisionValues from "../components/Mission/MissionValue.jsx";
 import ConstructionHeroSection from "../components/ConstructionHero/ConstructionHero.jsx";
 import ContactTestimonialsUI from "../components/Testimonials/Testimonials.jsx";
+import Service from "../components/Services/Service.jsx";
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -230,95 +231,7 @@ export default function Home() {
           </div>
         </div>
       </section> */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
-              Our Services
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              We provide comprehensive construction services with quality and
-              reliability since 1983
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="group">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-                <div className="overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1506092309076-af15fb0051e3?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="Residential Construction"
-                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-blue-900 mb-3">
-                    Residential Construction
-                  </h3>
-                  <p className="text-gray-600 mb-4">
-                    Building quality homes with attention to detail and
-                    craftsmanship.
-                  </p>
-                  <button className="text-yellow-600 font-semibold hover:text-yellow-700 transition-colors group-hover:translate-x-2 transform duration-300 inline-flex items-center">
-                    Learn More
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="group">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-                <div className="overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Commercial Projects"
-                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-blue-900 mb-3">
-                    Commercial Projects
-                  </h3>
-                  <p className="text-gray-600 mb-4">
-                    Professional commercial construction for businesses and
-                    institutions.
-                  </p>
-                  <button className="text-yellow-600 font-semibold hover:text-yellow-700 transition-colors group-hover:translate-x-2 transform duration-300 inline-flex items-center">
-                    Learn More
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="group">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-                <div className="overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Renovation Services"
-                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-blue-900 mb-3">
-                    Renovation Services
-                  </h3>
-                  <p className="text-gray-600 mb-4">
-                    Transform existing spaces with our expert renovation
-                    services.
-                  </p>
-                  <button className="text-yellow-600 font-semibold hover:text-yellow-700 transition-colors group-hover:translate-x-2 transform duration-300 inline-flex items-center">
-                    Learn More
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Service />
       <Leading />
       <Projects />
       <About />

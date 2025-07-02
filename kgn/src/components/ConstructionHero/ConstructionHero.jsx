@@ -44,7 +44,7 @@ export default function ConstructionHeroSection() {
                 <div className="flex flex-col sm:flex-row gap-6 lg:gap-8 items-center">
                   {/* First circular image */}
                   <div className="relative group">
-                    <div className="w-32 h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden shadow-xl transform group-hover:rotate-6 transition-transform duration-500">
+                    <div className="w-32 h-32 lg:w-52 lg:h-52 rounded-full overflow-hidden shadow-xl transform group-hover:rotate-6 transition-transform duration-500">
                       <img
                         src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&crop=center"
                         alt="Interior construction detail"
@@ -56,7 +56,7 @@ export default function ConstructionHeroSection() {
 
                   {/* Second circular image */}
                   <div className="relative group">
-                    <div className="w-32 h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden shadow-xl transform group-hover:-rotate-6 transition-transform duration-500">
+                    <div className="w-32 h-32 lg:w-52 lg:h-52 rounded-full overflow-hidden shadow-xl transform group-hover:-rotate-6 transition-transform duration-500">
                       <img
                         src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=400&h=400&fit=crop&crop=center"
                         alt="Construction site progress"
