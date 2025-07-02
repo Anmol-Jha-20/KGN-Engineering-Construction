@@ -142,7 +142,7 @@ export default function Footer() {
                     href="#"
                     className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
-                    General Contracting
+                    Construction Service
                   </a>
                 </li>
                 <li>
@@ -150,7 +150,7 @@ export default function Footer() {
                     href="#"
                     className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
-                    Construction Consultant
+                    Refractory Lining Service
                   </a>
                 </li>
                 <li>
@@ -158,7 +158,7 @@ export default function Footer() {
                     href="#"
                     className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
-                    Power And Energy
+                    Acid Resistant Lining Service
                   </a>
                 </li>
                 <li>
@@ -166,7 +166,7 @@ export default function Footer() {
                     href="#"
                     className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
-                    Special Projects
+                    Refractory Installation Service
                   </a>
                 </li>
                 <li>
@@ -174,7 +174,7 @@ export default function Footer() {
                     href="#"
                     className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
-                    House Renovation
+                    Rotary Furnace Service
                   </a>
                 </li>
                 <li>
@@ -182,7 +182,7 @@ export default function Footer() {
                     href="#"
                     className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
-                    Tiling And Painting
+                    Refractory Installation Service
                   </a>
                 </li>
               </ul>
