@@ -182,7 +182,7 @@ export default function Footer() {
                     href="#"
                     className="text-white hover:text-yellow-400 transition-colors duration-300"
                   >
-                    Refractory Installation Service
+                    Others
                   </a>
                 </li>
               </ul>
