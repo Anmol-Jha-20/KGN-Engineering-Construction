@@ -529,14 +529,22 @@ export default function Header() {
       {/* Main Header */}
       <header className="bg-transparent shadow-lg relative z-40" role="banner">
         <div className="container flex mx-auto px-4">
-          <div className="max-w-[150px] bg-white px-4 rounded-sm flex items-center space-x-3">
+          {/* <div className="max-w-[150px] bg-white px-4 rounded-sm flex items-center space-x-3">
             <img
               src="https://www.kgnengineeringconstruction.com/assets/images/logo-dark.png"
               alt="KGN Engineering Construction Logo"
               className="h-auto w-full object-contain"
             />
+          </div> */}
+          <div className="w-[120px] sm:w-[150px] bg-white px-2 py-2 rounded-sm flex items-center justify-center">
+            <img
+              src="https://www.kgnengineeringconstruction.com/assets/images/logo-dark.png"
+              alt="KGN Engineering Construction Logo"
+              className="w-full h-auto max-h-12 object-contain"
+            />
           </div>
-          <div className="flex bg-white rounded-sm ml-52 items-center justify-between px-5">
+
+          <div className="flex md:bg-white rounded-sm ml-52 items-center justify-between px-5">
             {/* Logo */}
 
             {/* Desktop Navigation */}
