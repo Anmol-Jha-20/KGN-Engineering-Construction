@@ -210,37 +210,43 @@
 
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import kgnprojectImage6 from "../../assets/kgnProject6.png";
+import kgnprojectImage from "../../assets/kgnProjectImage1.png";
 
 function Service() {
   const services = [
     {
-      title: "Construction Service",
-      description: "Silo Constructions Service",
-      img: "https://www.kgnengineeringconstruction.com/media/product/WhatsApp%20Image%202025-06-11%20at%2011.24.49_936c0e15.jpg",
+      title: "Industrial & Commercial Construction",
+      description:
+        "Industrial & commercial construction in plant and non-plant area.",
+      img: kgnprojectImage6,
     },
     {
-      title: "Refractory Lining Service",
-      description: "Intake Well Construction",
-      img: "https://www.kgnengineeringconstruction.com/media/product/project-1-6.jpg",
+      title: "Silo construction in cement industry",
+      description:
+        "Storage silo and fly ash silo construction in Cement industry projects",
+      img: kgnprojectImage,
     },
     {
-      title: "Acid Resistant Lining Service",
-      description: "RCC Chimney",
+      title: "RCC chimney, silo & intake well construction",
+      description:
+        "RCC chimney, silo and Intake well construction in industry projects",
       img: "https://www.kgnengineeringconstruction.com/media/product/WhatsApp%20Image%202025-01-03%20at%2011.49.44_5862064e.jpg",
     },
     {
-      title: "Refractory Installation Service",
-      description: "Refractory Brick Lining Service",
+      title: "OHBR, ELSR tanks & irrigation reservoirs",
+      description:
+        "OHBR, ELSR Water tank and All type of irrigation reservoir projects",
       img: "https://www.kgnengineeringconstruction.com/media/product/project-1-2.jpg",
     },
     {
-      title: "Rotary Furnace Service",
-      description: "Acid Resistant Lining Service",
+      title: "Power plants industry",
+      description: "Power plants industry",
       img: "https://www.kgnengineeringconstruction.com/media/product/project-1-3.jpg",
     },
     {
-      title: "Others",
-      description: "Refractory Installation Service",
+      title: "High-rise work with slip-form system",
+      description: "High rise structure work with slip-form system ",
       img: "https://www.kgnengineeringconstruction.com/media/product/project-1-4.jpg",
     },
   ];

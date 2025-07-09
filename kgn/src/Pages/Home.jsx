@@ -22,6 +22,7 @@ import MissionVisionValues from "../components/Mission/MissionValue.jsx";
 import ConstructionHeroSection from "../components/ConstructionHero/ConstructionHero.jsx";
 import ContactTestimonialsUI from "../components/Testimonials/Testimonials.jsx";
 import Service from "../components/Services/Service.jsx";
+import SlipformConstructionSection from "../components/slipformMethod/SlipformMethod.jsx";
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -232,6 +233,7 @@ export default function Home() {
         </div>
       </section> */}
       <Service />
+      <SlipformConstructionSection />
       <Leading />
       <Projects />
       <About />
